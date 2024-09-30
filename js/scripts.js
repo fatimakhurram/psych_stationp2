@@ -1,11 +1,9 @@
-/* Description: Custom JS file */
 
 
 (function($) {
     "use strict"; 
 	
-    /* Navbar Scripts */
-    // jQuery to collapse the navbar on scroll
+    
     $(window).on('scroll load', function() {
 		if ($(".navbar").offset().top > 60) {
 			$(".fixed-top").addClass("top-nav-collapse");
